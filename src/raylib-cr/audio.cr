@@ -1,7 +1,7 @@
 @[Link("raylib")]
 # :showdoc:
 lib RAudio
-  alias AudioCallback = Proc(Void*, LibC::UInt)
+  alias AudioCallback = Proc(Void*, LibC::UInt, Nil)
 
   {% if !flag?(:docs) %}
   {{ run "./miniaudio_fix/ma_sizes" }}

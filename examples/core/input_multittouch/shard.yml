@@ -1,0 +1,17 @@
+name: input_multittouch
+version: 0.1.0
+
+authors:
+  - D. Shwagginz <mynameisformat@gmail.com>
+
+targets:
+  input_multittouch:
+    main: src/input_multittouch.cr
+
+dependencies:
+  raylib-cr:
+    path: ../../../
+
+crystal: '>= 1.20.2'
+
+license: MIT
